@@ -10,7 +10,8 @@
 //   "Nehmen Sie die Menschen, wie sie sind, andere gibt’s nicht. - Konrad Adenauer",
 //   "Dort, wo man Bücher verbrennt, verbrennt man am Ende auch Menschen. - Heinrich Heine"
 // ];
-const compliments = [
+const quotes = [
+  
   "Татьяна, твоя улыбка освещает даже самый пасмурный день!",
   "Ты обладаешь удивительной харизмой и теплом, которые притягивают людей.",
   "Твоя доброта и искренность делают мир вокруг ярче и добрее.",
