@@ -73,13 +73,11 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 250px;
-
 }
 
 .favorite-card-content {
   flex: 1;
 }
-
 
 .favorite-card-author {
   font-size: 14px;
