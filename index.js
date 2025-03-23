@@ -35,6 +35,7 @@ function removeFavoriteQuote(id) {
 }
 
 function toggleCurrentQuote() {
+  
   currentQuote.isFavorite = !currentQuote.isFavorite;
   showFavoriteBtn(currentQuote.isFavorite);
   localStorageSetItem(CURRENT_QUOTE_KEY, currentQuote);
@@ -63,7 +64,7 @@ function setCurrentQuote(quote) {
 }
 
 hideFavoriteBtn();
-quoteFavoriteBtn.addEventListener("click", toggleCurrentQuote());
+quoteFavoriteBtn.addEventListener("click", toggleCurrentQuote);
 
 randomQuoteBtn.addEventListener("click", () =>
   setCurrentQuote(getRandomQuote())

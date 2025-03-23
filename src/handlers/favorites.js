@@ -8,7 +8,7 @@ function toggleFavoriteCard(quote, container) {
 
 
 
-function showFavoriteBtn(isFavorite, ) {
+function showFavoriteBtn(isFavorite) {
   const btn = quoteFavoriteBtn
   if (btn.style.display === "none") btn.style.display = "inline-block";
   btn.classList.toggle("fa-solid", isFavorite);
@@ -32,11 +32,11 @@ function showFavoriteCard(quote, container) {
       <p>${text}</p>
       <p class="favorite-card-author">${author}</p>
     </div>
-    <button class="btn btn-denger">Remove <i class="far fa-trash-alt"></i></button>
+    <button class="btn btn-danger">Remove <i class="far fa-trash-alt"></i></button>
   `;
   container.appendChild(favoriteCard);
 
-  const removeButton = favoriteCard.querySelector(".btn-denger");
+  const removeButton = favoriteCard.querySelector(".btn-danger");
   removeButton.addEventListener("click", () =>
     removeFavoriteQuote(id)
   );

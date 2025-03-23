@@ -27,13 +27,13 @@ body {
   background-color: #0056b3;
 }
 
-.btn-denger {
+.btn-danger {
   background-color: transparent;
   color: #ff0000;
   border: 2px solid #ff0000;
 }
 
-.btn-denger:hover {
+.btn-danger:hover {
   background-color: red;
   color: white;
 }
